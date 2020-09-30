@@ -11,7 +11,8 @@ case $answer in
 		apt-get upgrade
 		apt-get install figlet
 		apt-get install git
-		bash venom.sh
+		chmod 777 venom.sh
+		./venom.sh
 		;;
 	n)
 		echo " "
